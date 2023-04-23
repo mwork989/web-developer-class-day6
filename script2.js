@@ -60,3 +60,19 @@ function displayComparisonOperators(){
    <p><span>|| : operator explored with conditional statement</span></p>
 `
 }
+
+
+function showLargestNumber(){
+    var num1 = Number(prompt('Please enter first number'));
+    var num2 = Number(prompt('Please enter second number'));
+    var num3 = Number(prompt('Please enter third number'));
+
+    if( num1 > num2 && num1 > num3){
+        alert(`${num1} is largest`)
+    }else if (num2 > num1 && num2> num3){
+        alert(`${num2} is largest`)
+    } else {
+        alert(`${num3} is largest`)
+    }
+
+}
